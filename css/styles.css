@@ -1,0 +1,489 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-family: regular;
+}
+
+nav h3 {
+  padding: 0 100px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family: bold;
+}
+
+ul {
+  display: flex;
+  margin-top: 40px;
+  position: absolute;
+  right: 100px;
+  color: rgb(255, 255, 255);
+}
+
+li {
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-left: 20px;
+  padding: 30px;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+hr {
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+/*hero*/
+#hero {
+  height: 110vh;
+  background-image: url(../images/legs.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+}
+#hero h1 {
+  color: rgb(255, 255, 255);
+  padding-top: 150px;
+  font-size: 70px;
+  text-align: center;
+  font-family: bold;
+}
+#hero p {
+  padding-top: 20px;
+  font-family: regular;
+  color: rgb(255, 255, 255);
+  margin-left: 380px;
+}
+#hero button {
+  background-color: rgb(248, 246, 246);
+  height: 55px;
+  color: rgb(7, 7, 7);
+  border-radius: 10px;
+  font-family: bold;
+  margin-left: 50px;
+  border: none;
+  width: 170px;
+  margin-top: 120px;
+  margin-left: 580px;
+  font-size: 20px;
+}
+#hero button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(12, 12, 12);
+  font-family: bold;
+  width: 190px;
+}
+
+/*end of hero*/
+/*about*/
+#about {
+  height: 90vh;
+  background-color: rgb(255, 255, 255);
+}
+#about h2 {
+  font-size: 48px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: bold;
+}
+#about p {
+  font-family: regular;
+  padding-top: 20px;
+}
+
+.img-fluid {
+  padding-left: 100px;
+}
+
+#shoes {
+  height: 180vh;
+}
+#shoes .card #img {
+  height: 50vh;
+}
+#shoes .card-body #cart {
+  width: 10%;
+}
+#shoes .card-body #heart {
+  width: 10%;
+}
+#shoes .card-body #heart:hover {
+  width: 12%;
+  cursor: pointer;
+}
+#shoes .card-body #cart:hover {
+  width: 12%;
+  cursor: pointer;
+}
+#shoes button {
+  background-color: rgb(95, 94, 94);
+  color: rgb(253, 253, 243);
+  border: none;
+  border-radius: 3px;
+  height: 4vh;
+}
+#shoes button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+#shoes .card {
+  border-color: rgb(226, 223, 223);
+}
+#shoes .card #price {
+  padding-left: 200px;
+  padding-bottom: 20px;
+}
+#shoes .card p {
+  padding: 1px;
+  color: rgb(120, 119, 119);
+  font-family: regular;
+}
+#shoes h2 {
+  text-align: center;
+  font-size: 48px;
+  color: rgb(0, 0, 0);
+  padding-top: 40px;
+  font-family: bold;
+}
+#shoes .container {
+  padding-top: 80px;
+}
+#shoes p {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  margin-top: auto;
+  font-family: regular;
+}
+#shoes .container {
+  max-width: 2500px;
+  width: 100%;
+}
+#shoes #btn {
+  background-color: rgb(108, 105, 105);
+  color: rgb(253, 253, 243);
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 5px;
+  height: 30px;
+  width: 80px;
+}
+#shoes #btn:hover {
+  background-color: rgb(232, 119, 124);
+}
+
+#new {
+  height: 80vh;
+  text-align: center;
+}
+#new h2 {
+  font-size: 48px;
+  padding-top: 40px;
+  font-family: bold;
+}
+#new h2 img {
+  height: 10vh;
+  width: 10%;
+  margin-right: 100px;
+}
+#new h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+  font-family: bold;
+}
+#new P {
+  font-size: 15px;
+  font-family: regular;
+}
+#new h4 {
+  font-size: 22px;
+  padding-top: 20PX;
+  font-family: bold;
+}
+
+#experiment {
+  height: 100vh;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+#experiment h2 {
+  font-size: 48px;
+  padding-bottom: 20px;
+  font-family: bold;
+}
+#experiment * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#experiment body {
+  background: #191919;
+}
+#experiment .gallery {
+  width: 1000px;
+  display: flex;
+  overflow-x: scroll;
+  padding-top: 10px;
+}
+#experiment .gallery div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  flex: none;
+}
+#experiment .gallery div img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+#experiment .gallery::-webkit-scrollbar {
+  display: none;
+}
+#experiment .gallery-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto;
+}
+#experiment #backbtn,
+#experiment #nextbtn {
+  width: 50px;
+  cursor: pointer;
+  margin: 40px;
+}
+#experiment .gallery div img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#promo {
+  height: 130vh;
+  text-align: center;
+}
+#promo h2 {
+  text-align: center;
+  font-size: 48px;
+  font-family: bold;
+  padding-top: 30px;
+}
+#promo p {
+  font-size: 13px;
+  font-family: regular;
+}
+#promo h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-family: bold;
+}
+
+footer {
+  height: 55vh;
+  background-color: rgb(196, 188, 188);
+  text-align: center;
+  margin-top: 100px;
+}
+footer hr {
+  color: black;
+  margin-top: 40px;
+}
+footer .container {
+  padding-top: 40px;
+}
+footer .container h4 {
+  font-size: 25px;
+  font-family: bold;
+  margin-right: 100px;
+}
+footer .container h4:hover {
+  font-size: 25px;
+  color: rgb(129, 104, 104);
+  cursor: pointer;
+  text-decoration: underline;
+}
+footer .container p {
+  font-size: 16px;
+  margin-top: 30px;
+  font-family: regular;
+  margin-right: 100px;
+}
+footer .container .Email {
+  margin-top: 30px;
+  background-color: #343333;
+  height: 40px;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  font-family: regular;
+}
+footer .button {
+  color: rgb(28, 27, 27);
+  background-color: rgb(243, 241, 241);
+  border: none;
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+}
+footer .button .button:hover {
+  color: rgb(28, 27, 27);
+  background-color: rgb(243, 241, 241);
+  border: none;
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+}
+footer .button .copyright {
+  padding-top: 20px;
+  font-family: regular;
+}
+footer .button hr {
+  margin-top: 70px;
+}/*# sourceMappingURL=styles.css.map */
